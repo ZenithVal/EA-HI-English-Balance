@@ -17,7 +17,7 @@
       <RequiredItem identifier="pucs" />
       <Item identifier="fpgacircuit" />
     </Fabricate>
-    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="768,0,128,128" origin="0.5,0.5" />
+    <InventoryIcon texture="Content/Items/InventoryIconAtlas2.png" sourcerect="384,704,128,128" origin="0.5,0.5" />
     <Sprite name="PUCS Item" texture="%ModDir%/Content/Items/Jobgear/Engineer/PUCS_Items.png" sourcerect="0,0,154,134" depth="0.55" origin="0.5,0.5" />
     <ContainedSprite name="PUCS In Vertical Locker" allowedcontainertags="divingsuitcontainervertical" texture="%ModDir%/Content/Items/Jobgear/Engineer/PUCS_Items.png" sourcerect="164,0,87,190" depth="0.55" origin="0.5,0.5" />
     <ContainedSprite name="PUCS Behind Window" allowedcontainertags="divingsuitcontainerwindow" texture="%ModDir%/Content/Items/Jobgear/Engineer/pucs.png" sourcerect="430,0,80,207" depth="0.55" origin="-0.12,-0.13" />
@@ -56,8 +56,8 @@
       <sprite name="pucs Right Shoe" texture="pucs.png" limb="RightFoot" hidelimb="false" inherittexturescale="true" hideotherwearables="false" inheritorigin="true" inheritsourcerect="true" />
       <StatusEffect type="OnWearing" target="Character" OxygenAvailable="0.0" UseHullOxygen="true" />
       <StatusEffect type="OnWearing" target="Character" HideFace="true" PressureProtection="8000.0" SpeedMultiplier="1.2" PropulsionSpeedMultiplier="1.5" LowPassMultiplier="0.7" setvalue="true" disabledeltatime="true">
-        <Sound file="%ModDir%/Content/Items/Diving/DivingSuitLoop1.ogg" range="500" />
-        <Sound file="%ModDir%/Content/Items/Diving/DivingSuitLoop2.ogg" range="500" />
+        <Sound file="Content/Items/Diving/DivingSuitLoop1.ogg" range="500" />
+        <Sound file="Content/Items/Diving/DivingSuitLoop2.ogg" range="500" />
       </StatusEffect>
       <StatusEffect type="OnWearing" target="this,Character" SpeedMultiplier="1.7" PropulsionSpeedMultiplier="1.2" comparison="And" LowPassMultiplier="0.9" setvalue="true" disabledeltatime="true">
         <Conditional InWater="true" />
