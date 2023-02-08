@@ -882,6 +882,7 @@
         <SkillModifier skillidentifier="medical" skillvalue="15" />
         <damagemodifier armorsector="0.0,360.0" afflictionidentifiers="blunttrauma,lacerations,bitewounds" damagemultiplier="0.67" />
       </Wearable>
+    </Item>
     <!--hats-->
     <!--亡蝶葬仪的赠礼-->
     <Item name="" identifier="shengxuanhats" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing,clownmask" description="" hideinmenus="false" scale="0.50">
