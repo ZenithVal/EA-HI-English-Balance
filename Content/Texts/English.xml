@@ -179,7 +179,7 @@
   <missionname.EAHI_Misssion_PP>Mother of the Creepers Annihilation</missionname.EAHI_Misssion_PP>
   <missiondescription.EAHI_Misssion_PP>The Mother of Many Creepers leads hordes of Creepers to attack ships in the channel. East Asia Heavy Industries promised to give 8,500 mk rewards to those who wiped out this group of monsters.</missiondescription.EAHI_Misssion_PP>
   <missionsuccess.EAHI_Misssion_PP>Colonies of algae crawlers have been removed</missionsuccess.EAHI_Misssion_PP>
-  <mission failure.EAHI_Misssion_PP>Algal crawler colonies not removed</mission failure.EAHI_Misssion_PP>
+  <missionfailure.EAHI_Misssion_PP>Algal crawler colonies not removed</missionfailure.EAHI_Misssion_PP>
   <missionname.EAHI_Misssion_XML>Velociraptor Fight</missionname.EAHI_Misssion_XML>
   <missiondescription.EAHI_Misssion_XML>A liaison officer from East Asia Heavy Industries said that recently a group of particularly ferocious Velociraptors was attacking ships traveling in the waterway, seriously affecting the interests of the company. A reward of 8000mk has been promised to whoever annihilates this horde of monsters.</missiondescription.EAHI_Misssion_XML>
   <missionsuccess.EAHI_Misssion_XML>Velociraptor herd has been cleared</missionsuccess.EAHI_Misssion_XML>
