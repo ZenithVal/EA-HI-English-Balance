@@ -333,19 +333,24 @@
     <StatusHUD drawhudwhenequipped="true" overlaycolor="0,0,0,0" />
   </Item>
   <!--扩容包-->
-  <Item name="" description="" identifier="EAHI_kuorongbag" category="Equipment" Tags="smallitem,mobilecontainer,revolverammo,pistolammoitem,handcannonammo,shotgunammo,harpoonammo,stungunammo,grenade,Blame_harpoonammo" showcontentsintooltip="true" fireproof="true" waterproof="true" scale="0.5">
-    <PreferredContainer primary="storagecab" spawnprobability="0.05" />
-    <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.09" />
+  <Item name="" description="" identifier="EAHI_kuorongbag" category="Equipment" Tags="mediumitem,mobilecontainer,revolverammo,pistolammoitem,handcannonammo,shotgunammo,harpoonammo,stungunammo,grenade,Blame_harpoonammo" showcontentsintooltip="true" fireproof="true" waterproof="true" scale="0.5">
+    <PreferredContainer primary="storagecab" spawnprobability="0.04" />
+    <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.07" />
     <Sprite texture="%ModDir%/Content/EA-HI/gfx.png" sourcerect="128,0,128,128" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="60" density="25" />
     <Deconstruct time="15">
       <RequiredItem identifier="steel" />
       <RequiredItem identifier="organicfiber" />
     </Deconstruct>
-    <Holdable slots="RightHand,LeftHand,Any" msg="ItemMsgPickUpSelect" holdangle="40" handle1="0,10" />
+    <Holdable slots="RightHand,LeftHand" msg="ItemMsgPickUpSelect" holdangle="40" handle1="0,10" />
+
+    <Wearable slots="Bag" msg="ItemMsgPickUpSelect">
+    </Wearable>
+
     <ItemContainer capacity="8" slotsperrow="2" keepopenwhenequipped="true" movableframe="true">
-      <Containable items="smallitem,mediumitem" excludeditems="toolbelt,toolbox,bandolier,smallbag" />
+      <Containable items="smallitem,mediumitem" excludeditems="toolbelt,toolbox,bandolier,mobilecontainer" />
     </ItemContainer>
+
   </Item>
   <!--高级声纳-->
   <Item name="" description="" identifier="EAHI_handheldsonar" category="weapon" Tags="smallitem,sonar,provocative" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light">

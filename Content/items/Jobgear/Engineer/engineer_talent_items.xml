@@ -316,7 +316,6 @@
         <Price locationtype="merchantresearch" multiplier="2.0" minavailable="0" maxavailable="1" sold="true" >
           <Reputation faction="coalition" min="70" />
         </Price>
-        <Price locationtype="merchantmilitary" multiplier="1" sold="false" />
         <Price locationtype="merchantmilitary" multiplier="1.1" sold="false" />
       </Price>
       <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.0" />
@@ -441,7 +440,6 @@
         <Price locationtype="merchantresearch" multiplier="2.0" minavailable="0" maxavailable="1" sold="true" >
           <Reputation faction="coalition" min="70" />
         </Price>
-        <Price locationtype="merchantmilitary" multiplier="1" sold="false" />
         <Price locationtype="merchantmilitary" multiplier="1.1" sold="false" />
       </Price>
       <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.0" />
@@ -567,7 +565,6 @@
         <Price locationtype="merchantresearch" multiplier="2.0" minavailable="0" maxavailable="1" sold="true" >
           <Reputation faction="coalition" min="70" />
         </Price>
-        <Price locationtype="merchantmilitary" multiplier="1" sold="false" />
         <Price locationtype="merchantmilitary" multiplier="1.1" sold="false" />
       </Price>
       <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.0" />
@@ -697,7 +694,6 @@
         <Price locationtype="merchantresearch" multiplier="2.0" minavailable="0" maxavailable="1" sold="true" >
           <Reputation faction="coalition" min="70" />
         </Price>
-        <Price locationtype="merchantmilitary" multiplier="1" sold="false" />
         <Price locationtype="merchantmilitary" multiplier="1.1" sold="false" />
       </Price>
       <PreferredContainer primary="divingsuitcontainer" spawnprobability="0.0" />
