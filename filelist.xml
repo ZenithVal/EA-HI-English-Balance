@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="[EA-HI] English &amp; Balanced" modversion="1.46.6" corepackage="False" steamworkshopid="2894672716" gameversion="1.0.7.0" altnames="[EA-HI] But English and Nerfed">
+<contentpackage name="[EA-HI] English &amp; Balanced" modversion="1.46.9" corepackage="False" steamworkshopid="2894672716" gameversion="1.0.7.0" altnames="[EA-HI] But English and Nerfed">
   <Item file="%ModDir%/Content/Map/Pirates/PirateItems.xml" />
   <Item file="%ModDir%/Content/items/Jobgear/misc.xml" />
   <Item file="%ModDir%/Content/items/Jobgear/Assistant/assistant_talent_items.xml" />
