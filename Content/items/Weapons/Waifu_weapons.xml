@@ -16,9 +16,9 @@
     <Sprite texture="%ModDir%/Content/items/Weapons/Katana.png" sourcerect="0,234,310,54" depth="0.55" origin="0.5,0.5" />
     <Body width="305" height="32" density="45" />
     <MeleeWeapon slots="RightHand+LeftHand,Any" aimpos="45,20" handle1="-35,-2" holdangle="30" reload="0.95" range="100" combatPriority="49" msg="ItemMsgPickUpSelect">
-      <Attack targetimpulse="3" severlimbsprobability="8.5" itemdamage="10" penetration="1.25">
-        <Affliction identifier="lacerations" strength="25" />
-        <Affliction identifier="bleeding" strength="20" />
+      <Attack targetimpulse="3" severlimbsprobability="8.5" itemdamage="5" penetration="1.25">
+        <Affliction identifier="lacerations" strength="15" />
+        <Affliction identifier="bleeding" strength="12" />
         <Affliction identifier="stun" strength="0.4" />
         <Sound file="Content/Sounds/Damage/LimbSlash1.ogg" selectionmode="random" range="500" />
         <Sound file="Content/Sounds/Damage/LimbSlash2.ogg" range="500" />
@@ -46,10 +46,10 @@
     <Sprite texture="%ModDir%/Content/items/Weapons/Katana.png" sourcerect="0,0,310,54" depth="0.55" origin="0.5,0.5" />
     <Body width="305" height="32" density="45" />
     <MeleeWeapon slots="RightHand,Any" aimpos="45,20" handle1="-35,-2" holdangle="30" reload="0.95" range="100" combatPriority="49" msg="ItemMsgPickUpSelect">
-      <Attack targetimpulse="3" severlimbsprobability="8" itemdamage="10" penetration="1.25">
-        <Affliction identifier="internaldamage" strength="8" />
-        <Affliction identifier="lacerations" strength="15" />
-        <Affliction identifier="bleeding" strength="20" />
+      <Attack targetimpulse="3" severlimbsprobability="8" itemdamage="5" penetration="1.25">
+        <Affliction identifier="internaldamage" strength="6" />
+        <Affliction identifier="lacerations" strength="10" />
+        <Affliction identifier="bleeding" strength="10" />
         <Affliction identifier="stun" strength="0.4" />
         <Sound file="Content/Sounds/Damage/LimbSlash1.ogg" selectionmode="random" range="500" />
         <Sound file="Content/Sounds/Damage/LimbSlash2.ogg" range="500" />
@@ -274,7 +274,7 @@
     </LightComponent>
     <Projectile characterusable="false" launchimpulse="80.0" sticktocharacters="true" sticktoitems="false" sticktostructures="true" penetration="0.85" maxtargetstohit="2">
       <ParticleEmitter particle="tracerpulselaser" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="1,0.75" colormultiplier="0,0,255,255" />
-      <Attack structuredamage="8" itemdamage="30" targetforce="30" severlimbsprobability="0.15">
+      <Attack structuredamage="4" itemdamage="30" targetforce="30" severlimbsprobability="0.15">
         <Affliction identifier="bleeding" strength="60" />
         <Affliction identifier="lacerations" strength="120" />
         <Affliction identifier="stun" strength="7" />
