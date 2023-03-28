@@ -345,7 +345,7 @@
     <Holdable slots="RightHand,LeftHand" msg="ItemMsgPickUpSelect" holdangle="40" handle1="0,10" />
 
     <Wearable slots="Bag" msg="ItemMsgEquipSelect" canbeselected="false" canbepicked="true" pickkey="Select" displaycontainedstatus="true">
-      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.92" setvalue="true" disabledeltatime="true" />
+      <StatusEffect type="OnWearing" target="Character" SpeedMultiplier="0.91" setvalue="true" disabledeltatime="true" />
     </Wearable>
 
     <ItemContainer capacity="8" slotsperrow="2" keepopenwhenequipped="true" movableframe="true">
