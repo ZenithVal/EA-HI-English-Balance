@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="[EA-HI] English &amp; Balanced" modversion="1.46.19" corepackage="False" steamworkshopid="2894672716" gameversion="1.0.8.0" altnames="[EA-HI] But English and Nerfed">
+<contentpackage name="[EA-HI] English &amp; Balanced" modversion="1.46.20" corepackage="False" steamworkshopid="2894672716" gameversion="1.0.9.0" altnames="[EA-HI] But English and Nerfed">
   <Item file="%ModDir%/Content/Map/Pirates/PirateItems.xml" />
   <Item file="%ModDir%/Content/items/Jobgear/misc.xml" />
   <Item file="%ModDir%/Content/items/Jobgear/Assistant/assistant_talent_items.xml" />
@@ -44,6 +44,5 @@
   <Talents file="%ModDir%/Content/Talents/TalentsNEW.xml" />
   <Particles file="%ModDir%/Content/Particles/ParticlePrefabs.xml" />
   <Corpses file="%ModDir%/Content/NPCPrefabs/Corpses.xml" />
-  <!--K.E.P Series from Jiuzhou Armory-->
   <Item file="%ModDir%/Content/items/TSM/tsm_gears.xml" />
 </contentpackage>
