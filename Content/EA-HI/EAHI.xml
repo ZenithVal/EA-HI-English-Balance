@@ -227,9 +227,9 @@
   </Item>
   <!-- 工具袋（透明） -->
   <Item identifier="EAHI_toolbelt" descriptionidentifier="toolbelt" variantof="toolbelt">
-    <PreferredContainer primary="engcab"/>
-    <PreferredContainer primary="wreckstoragecab,abandonedstoragecab" spawnprobability="0"/>
-    <PreferredContainer primary="outpostcrewcabinet" spawnprobability="0"/>
+    <PreferredContainer primary="engcab" />
+    <PreferredContainer primary="wreckstoragecab,abandonedstoragecab" spawnprobability="0" />
+    <PreferredContainer primary="outpostcrewcabinet" spawnprobability="0" />
     <Wearable>
       <sprite texture="EAHI_pucs.png" sourcerect="0,0,1,1" />
     </Wearable>
@@ -350,8 +350,8 @@
     <Sprite texture="%ModDir%/Content/EA-HI/gfx.png" sourcerect="128,0,128,128" depth="0.55" origin="0.5,0.5" />
     <Body width="45" height="60" density="25" />
     <Deconstruct time="15">
-      <RequiredItem identifier="steel" />
-      <RequiredItem identifier="organicfiber" />
+      <Item identifier="steel" />
+      <Item identifier="organicfiber" />
     </Deconstruct>
     <Holdable slots="RightHand,LeftHand" msg="ItemMsgPickUpSelect" holdangle="40" handle1="0,10" />
 
@@ -415,7 +415,7 @@
     <Upgrade gameversion="0.10.0.0" scale="0.5" />
   </Item>
   <!--多功能工具：一个就够了-->
-  <Item name="" description="" identifier="EAHI_duogongnengtool" category="Equipment" Tags="smallitem,tool,cuttingequipment,electricalrepairtool,mechanicalrepairtool,provocative,screwdriver,wrench,weldingequipment,crowbaritem,mountableweapon" cargocontaineridentifier="metalcrate" Scale="0.4" impactsoundtag="impact_metal_light">
+  <Item name="" description="" identifier="EAHI_duogongnengtool" category="Equipment" Tags="smallitem,tool,cuttingequipment,electricalrepairtool,mechanicalrepairtool,provocative,screwdriver,wrench,weldingequipment,crowbaritem" cargocontaineridentifier="metalcrate" Scale="0.4" impactsoundtag="impact_metal_light">
     <PreferredContainer primary="storagecab" spawnprobability="0.05" />
     <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.02" />
     <Deconstruct time="10">

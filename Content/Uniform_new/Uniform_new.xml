@@ -2,7 +2,7 @@
 <Override>
   <Items>
     <!--哥特长裙-->
-    <Item name="" identifier="GTCQuniform1" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <Item name="" identifier="GTCQuniform1" subcategory="waifu_maid" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
       <PreferredContainer secondary="abandonedstoragecab" minamount="1" maxamount="1" spawnprobability="0.1" />
       <PreferredContainer primary="wreckstoragecab" spawnprobability="0.09" />
       <Price baseprice="150" minavailable="1">
@@ -39,7 +39,7 @@
       </Wearable>
     </Item>
     <!--旗袍-->
-    <Item name="" identifier="QPuniform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Item name="" identifier="QPuniform" subcategory="waifu_maid" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
       <PreferredContainer secondary="abandonedstoragecab" minamount="1" maxamount="1" spawnprobability="0.1" />
       <PreferredContainer primary="wreckstoragecab" spawnprobability="0.09" />
       <Price baseprice="150" minavailable="1">
@@ -75,7 +75,7 @@
       </Wearable>
     </Item>
     <!--白色旗袍-->
-    <Item name="" identifier="BSQPuniform" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
+    <Item name="" identifier="BSQPuniform" subcategory="waifu_maid" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" scale="0.5" impactsoundtag="impact_soft">
       <PreferredContainer secondary="abandonedstoragecab" minamount="1" maxamount="1" spawnprobability="0.1" />
       <PreferredContainer primary="wreckstoragecab" spawnprobability="0.09" />
       <Price baseprice="150" minavailable="1">
@@ -111,7 +111,7 @@
       </Wearable>
     </Item>
     <!--魅魔-->
-    <Item name="" identifier="succubussuit" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing,clowngear,clowns" description="" impactsoundtag="impact_soft" hideinmenus="false" scale="0.5">
+    <Item name="" identifier="succubussuit" subcategory="waifu_maid" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing,clowngear,clowns" description="" impactsoundtag="impact_soft" hideinmenus="false" scale="0.5">
       <Price baseprice="500" canbespecial="false" sold="false">
         <Price storeidentifier="merchantclown" minavailable="2" sold="true">
           <Reputation faction="clowns" min="45" />
@@ -145,6 +145,7 @@
         <!-- HöNK -->
         <damagemodifier afflictiontypes="damage" armorsector="0.0,360.0" damagesound="LimbClown" />
         <damagemodifier afflictiontypes="damage" armorsector="0.0,360.0" damagesound="LimbClown" />
+        <StatusEffect tags="clown" type="OnWearing" target="Character" duration="0.1" stackable="false" />
         <SkillModifier skillidentifier="helm" skillvalue="5" />
         <SkillModifier skillidentifier="weapons" skillvalue="5" />
         <SkillModifier skillidentifier="mechanical" skillvalue="5" />
@@ -154,7 +155,7 @@
       </Wearable>
     </Item>
     <!--异星装甲潜水服-->
-    <Item name="" identifier="Exotic_Amor_suit" category="diving" tags="smallitem,deepdiving,diving,clothing" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <Item name="" identifier="Exotic_Amor_suit" subcategory="waifu_wip" category="diving" tags="smallitem,deepdiving,diving,clothing" fireproof="true" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
       <!--<PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
       <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.05" />
       <Price baseprice="1145">
@@ -237,7 +238,7 @@
       <aitarget maxsightrange="1500" />
     </Item>
     <!-- HGIS -->
-    <Item name="" identifier="PrayerMio_uniform" category="Equipment" tags="smallitem,clothing" fireproof="ture" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <Item name="" identifier="PrayerMio_uniform" subcategory="waifu_wip" category="Equipment" tags="smallitem,clothing" fireproof="ture" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
       <PreferredContainer primary="crewcab" />
       <PreferredContainer secondary="locker" />
       <!-- <PreferredContainer secondary="abandonedstoragecab" minamount="1" maxamount="1" spawnprobability="0.1" /> -->
@@ -327,7 +328,7 @@
     </Item>
     <!--hats-->
     <!--魅魔-->
-    <Item name="" identifier="succubusmask" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing,clownmask,clowns" description="" hideinmenus="false" scale="0.5">
+    <Item name="" identifier="succubusmask" subcategory="waifu_maid" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing,clownmask,clowns" description="" hideinmenus="false" scale="0.5">
       <Price baseprice="100" canbespecial="false" sold="false">
         <Price storeidentifier="merchantclown" minavailable="2" sold="true">
           <Reputation faction="clowns" min="45"/>
@@ -346,22 +347,22 @@
         <StatusEffect tags="clown" type="OnWearing" target="Character" HideFace="true" duration="0.1" stackable="false" />
       </Wearable>
       <ItemContainer hideitems="true" capacity="1" maxstacksize="1" containedstateindicatorstyle="" containedspritedepths="0.551,0.552">
-        <Containable items="healthscanner,thermalgoggles">
+        <Containable items="healthscanner,thermalgoggles,electriciansgoggles">
           <!-- 每隔1秒执行一次，停用配件效果，延迟生效 -->
-          <StatusEffect type="OnContaining" target="This" targetitemcomponent="StatusHUD" drawhudwhenequipped="false" overlaycolor="0,0,0,0" thermalgoggles="false" showtexts="false" delay="1" stackable="false" />
+          <StatusEffect type="OnWearing" target="This" targetitemcomponent="StatusHUD" drawhudwhenequipped="false" overlaycolor="0,0,0,0" thermalgoggles="false" showtexts="false" debugwiring="false" delay="1" stackable="false" />
         </Containable>
         <Containable Items="healthscanner">
-          <StatusEffect type="OnContaining" target="This" targetitemcomponent="StatusHUD" drawhudwhenequipped="true" overlaycolor="0,176,0,60" showtexts="true" />
+          <StatusEffect type="OnWearing" target="This" targetitemcomponent="StatusHUD" drawhudwhenequipped="true" overlaycolor="0,176,0,60" showtexts="true" />
         </Containable>
         <Containable Items="thermalgoggles">
-          <StatusEffect type="OnContaining" target="This" targetitemcomponent="StatusHUD" drawhudwhenequipped="true" overlaycolor="176,0,0,60" thermalgoggles="true" />
+          <StatusEffect type="OnWearing" target="This" targetitemcomponent="StatusHUD" drawhudwhenequipped="true" overlaycolor="176,0,0,60" thermalgoggles="true" />
         </Containable>
         <SlotIcon slotindex="0" texture="%ModDir%/Content/items/weapons/Waifu_UI.png" sourcerect="120,0,120,120" origin="0.5,0.5" />
       </ItemContainer>
       <StatusHUD drawhudwhenequipped="false" overlaycolor="0,0,0,0" range="3000" thermalgoggles="false" showdeadcharacters="false" showtexts="false" />
     </Item>
     <!--异星装甲头盔 -->
-    <Item name="" identifier="Exotic_Amor_suit_head" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="" hideinmenus="false" scale="0.50">
+    <Item name="" identifier="Exotic_Amor_suit_head" subcategory="waifu_wip" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="" hideinmenus="false" scale="0.50">
       <!--<Price baseprice="1" sold="false" canbespecial="false" />
       <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.01" />
       <PreferredContainer primary="crewcab" />
@@ -397,7 +398,7 @@
       </Wearable>
     </Item>
     <!-- 棱镜 -->
-    <Item name="" identifier="PrayerMio_hat" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="" scale="0.5" impactsoundtag="impact_metal_light">
+    <Item name="" identifier="PrayerMio_hat" subcategory="waifu_wip" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,clothing" description="" scale="0.5" impactsoundtag="impact_metal_light">
       <PreferredContainer primary="crewcab" />
       <PreferredContainer secondary="locker" />
       <!-- <PreferredContainer secondary="abandonedstoragecab" minamount="1" maxamount="1" spawnprobability="0.1" /> -->

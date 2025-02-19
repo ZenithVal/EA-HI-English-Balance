@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Override>
   <!-- 各种紧身衣 -->
   <Items>
     <!--紧身战斗服mk1-->
-    <Item name="" identifier="tight_combatsuit_1" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <Item name="" identifier="tight_combatsuit_1" subcategory="waifu_tightswim" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
       <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
       <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.05" />
       <Price baseprice="150" minavailable="1">
@@ -15,7 +15,7 @@
       </Price>
       <Deconstruct time="10" />
       <InventoryIcon name="tight_combatsuit_1's Uniform 2 Icon" texture="%ModDir:2809175631%/Content/Uniform_new/OutfitIcons_1.png" sourcerect="128,155,128,110" origin="0.5,0.5" />
-      <Sprite name="tight_combatsuit_1's Uniform 2" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="639,146,119,70" depth="0.6" origin="0.5,0.5" />
+      <Sprite name="tight_combatsuit_1's Uniform 2" texture="%ModDir%/Content/Items/Jobgear/MiscJobGear.png" sourcerect="639,146,119,70" depth="0.6" origin="0.5,0.5" />
       <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
       <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
         <sprite name="tight_combatsuit_1's Uniform 2 Torso" texture="tight_combatsuit_1.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -37,7 +37,7 @@
       </Wearable>
     </Item>
     <!--紧身战斗服mk2-->
-    <Item name="" identifier="tight_combatsuit_2" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <Item name="" identifier="tight_combatsuit_2" subcategory="waifu_tightswim" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
       <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
       <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.05" />
       <Price baseprice="150" minavailable="1">
@@ -49,7 +49,7 @@
       </Price>
       <Deconstruct time="10" />
       <InventoryIcon name="tight_combatsuit_2's Uniform 2 Icon" texture="%ModDir:2809175631%/Content/Uniform_new/OutfitIcons_1.png" sourcerect="256,155,128,110" origin="0.5,0.5" />
-      <Sprite name="tight_combatsuit_2's Uniform 2" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="639,146,119,70" depth="0.6" origin="0.5,0.5" />
+      <Sprite name="tight_combatsuit_2's Uniform 2" texture="%ModDir%/Content/Items/Jobgear/MiscJobGear.png" sourcerect="639,146,119,70" depth="0.6" origin="0.5,0.5" />
       <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
       <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
         <sprite name="tight_combatsuit_2's Uniform 2 Torso" texture="tight_combatsuit_2.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -71,7 +71,7 @@
       </Wearable>
     </Item>
     <!--蓝色战斗服-->
-    <Item name="" identifier="blue_combatsuit" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <Item name="" identifier="blue_combatsuit" subcategory="waifu_tightswim" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
       <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
       <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.05" />
       <Price baseprice="150" minavailable="1">
@@ -83,7 +83,7 @@
       </Price>
       <Deconstruct time="10" />
       <InventoryIcon name="blue_combatsuit's Uniform 2 Icon" texture="%ModDir:2809175631%/Content/Uniform_new/OutfitIcons_1.png" sourcerect="384,155,128,110" origin="0.5,0.5" />
-      <Sprite name="blue_combatsuit's Uniform 2" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="639,146,119,70" depth="0.6" origin="0.5,0.5" />
+      <Sprite name="blue_combatsuit's Uniform 2" texture="%ModDir%/Content/Items/Jobgear/MiscJobGear.png" sourcerect="639,146,119,70" depth="0.6" origin="0.5,0.5" />
       <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
       <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
         <sprite name="Succubus Mask Wearable" texture="%ModDir:2809175631%/Content/Items/Jobgear/headgears_1.png" limb="Head" inheritlimbdepth="true" inheritscale="true" ignorelimbscale="true" scale="0.5" hideotherwearables="true" sourcerect="0,0,188,280" origin="0.7667,0.290" />
@@ -107,7 +107,7 @@
       </Wearable>
     </Item>
     <!--卫士战斗服-->
-    <Item name="" identifier="guardiansuit" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <Item name="" identifier="guardiansuit" subcategory="waifu_tightswim" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
       <PreferredContainer primary="crewcab" minamount="0" maxamount="1" spawnprobability="0.125" />
       <PreferredContainer primary="outpostcrewcabinet" minamount="1" maxamount="1" spawnprobability="0.05" />
       <Price baseprice="150" minavailable="1">
@@ -119,7 +119,7 @@
       </Price>
       <Deconstruct time="10" />
       <InventoryIcon name="guardiansuit's Uniform 2 Icon" texture="%ModDir:2809175631%/Content/Uniform_new/OutfitIcons_1.png" sourcerect="128,283,128,110" origin="0.5,0.5" />
-      <Sprite name="guardiansuit's Uniform 2" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="639,146,119,70" depth="0.6" origin="0.5,0.5" />
+      <Sprite name="guardiansuit's Uniform 2" texture="%ModDir%/Content/Items/Jobgear/MiscJobGear.png" sourcerect="639,146,119,70" depth="0.6" origin="0.5,0.5" />
       <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
       <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
         <sprite name="guardiansuit's Uniform 2 Torso" texture="guardiansuit.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
@@ -141,7 +141,7 @@
       </Wearable>
     </Item>
     <!-- 黑色胶衣 -->
-    <Item name="" identifier="blackgelcoat" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
+    <Item name="" identifier="blackgelcoat" subcategory="waifu_tightswim" category="Equipment" tags="smallitem,clothing" fireproof="false" cargocontaineridentifier="metalcrate" description="" scale="0.5" impactsoundtag="impact_soft">
       <PreferredContainer primary="crewcab" />
       <PreferredContainer secondary="outpostcrewcabinet" amount="1" spawnprobability="0.05" />
       <Price baseprice="150" minavailable="1">
@@ -155,7 +155,7 @@
         <Item identifier="organicfiber" />
       </Deconstruct>
       <InventoryIcon name="Black Gel Coat Icon" texture="Content/Items/Jobgear/OutfitIcons.png" sourcerect="0,402,128,110" origin="0.5,0.5" />
-      <Sprite name="Black Gel Coat" texture="Content/Items/Jobgear/MiscJobGear.png" sourcerect="767,149,124,69" depth="0.6" origin="0.5,0.5" />
+      <Sprite name="Black Gel Coat" texture="%ModDir%/Content/Items/Jobgear/MiscJobGear.png" sourcerect="767,149,124,69" depth="0.6" origin="0.5,0.5" />
       <Body width="100" height="50" density="15" friction="0.8" restitution="0.01" />
       <Wearable slots="Any,InnerClothes" msg="ItemMsgPickUpSelect">
         <sprite name="Black Gel Coat Torso" texture="BlackGelCoat.png" limb="Torso" hidelimb="false" inherittexturescale="true" inheritorigin="true" inheritsourcerect="true" />
