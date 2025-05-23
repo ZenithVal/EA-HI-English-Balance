@@ -146,7 +146,7 @@
     <StatusHUD drawhudwhenequipped="true" overlaycolor="0,0,0,0" />
   </Item>
   <!--扩容包-->
-  <Item name="" description="" identifier="EAHI_kuorongbag" subcategory="EAHI" category="Misc" Tags="wf_items,smallitem,mobilecontainer,revolverammo,pistolammoitem,handcannonammo,shotgunammo,harpoonammo,stungunammo,grenade,Blame_harpoonammo" showcontentsintooltip="true" fireproof="true" waterproof="true" scale="0.5">
+  <!-- <Item name="" description="" identifier="EAHI_kuorongbag" subcategory="EAHI" category="Misc" Tags="wf_items,smallitem,mobilecontainer,revolverammo,pistolammoitem,handcannonammo,shotgunammo,harpoonammo,stungunammo,grenade,Blame_harpoonammo" showcontentsintooltip="true" fireproof="true" waterproof="true" scale="0.5">
     <PreferredContainer primary="storagecab" spawnprobability="0.05" />
     <PreferredContainer secondary="wreckstoragecab" spawnprobability="0.09" />
     <Sprite texture="%ModDir:2809175631%/Content/Addons/gfx.png" sourcerect="512,64,64,64" depth="0.55" origin="0.5,0.5" scale="0.5" />
@@ -159,7 +159,7 @@
     <ItemContainer capacity="8" slotsperrow="2" keepopenwhenequipped="true" movableframe="true">
       <Containable items="smallitem,mediumitem" excludeditems="toolbelt,toolbox,bandolier,smallbag" />
     </ItemContainer>
-  </Item>
+  </Item> -->
   <!--高级声纳-->
   <Item name="" description="" identifier="EAHI_handheldsonar" subcategory="EAHI" category="Misc" Tags="smallitem,sonar,provocative,wf_items" cargocontaineridentifier="metalcrate" Scale="0.5" impactsoundtag="impact_metal_light">
     <Price baseprice="200" minavailable="2" sold="false">
