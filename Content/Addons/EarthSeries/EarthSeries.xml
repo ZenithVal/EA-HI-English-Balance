@@ -20,7 +20,7 @@
       <Sprite texture="%ModDir:2809175631%/Content/Addons/EarthSeries/Katana.png" sourcerect="0,234,310,54" depth="0.55" origin="0.5,0.5" />
       <Body width="305" height="32" density="45" />
       <MeleeWeapon slots="Any,RightHand+LeftHand" aimpos="40,30" handle1="-37,-2" handle2="-42,-2" holdangle="70" reload="1.2" range="155" combatpriority="40" msg="ItemMsgPickUpSelect">
-        <Attack targetimpulse="3.5" severlimbsprobability="5.0" itemdamage="30" structuredamage="15" penetration="0.15">
+        <Attack targetimpulse="3.5" severlimbsprobability="5.0" itemdamage="10" structuredamage="5" penetration="0.15">
           <Affliction identifier="lacerations" strength="28" />
           <Affliction identifier="bleeding" strength="15" />
           <Affliction identifier="stun" strength="0.45" />
@@ -115,7 +115,7 @@
       <Sprite texture="%ModDir:2809175631%/Content/Addons/EarthSeries/Katana.png" sourcerect="0,54,236,54" depth="0.55" origin="0.5,0.5" />
       <Body width="232" height="32" density="45" />
       <MeleeWeapon slots="LeftHand,Any" aimpos="45,20" handle1="-32,-2" holdangle="30" reload="0.65" range="100" combatPriority="49" msg="ItemMsgPickUpSelect">
-        <Attack targetimpulse="3" severlimbsprobability="0.1" itemdamage="20" penetration="0.25">
+        <Attack targetimpulse="3" severlimbsprobability="0.1" itemdamage="10" penetration="0.25">
           <Affliction identifier="internaldamage" strength="5" />
           <Affliction identifier="lacerations" strength="13" />
           <Affliction identifier="bleeding" strength="15" />
@@ -163,7 +163,7 @@
       <Sprite texture="%ModDir:2809175631%/Content/Addons/EarthSeries/Katana.png" sourcerect="0,108,310,64" depth="0.55" origin="0.5,0.5" />
       <Body width="305" height="32" density="45" />
       <MeleeWeapon slots="RightHand,Any" aimpos="45,20" handle1="-35,-2" holdangle="30" reload="0.95" range="100" combatPriority="49" msg="ItemMsgPickUpSelect">
-        <Attack targetimpulse="3" severlimbsprobability="2.5" itemdamage="30" penetration="0.75">
+        <Attack targetimpulse="3" severlimbsprobability="2.5" itemdamage="10" penetration="0.75">
           <Affliction identifier="internaldamage" strength="15" />
           <Affliction identifier="lacerations" strength="10" />
           <Affliction identifier="burn" strength="20" />
@@ -211,7 +211,7 @@
       <Sprite texture="%ModDir:2809175631%/Content/Addons/EarthSeries/Katana.png" sourcerect="0,172,240,62" depth="0.55" origin="0.5,0.5" />
       <Body width="232" height="32" density="45" />
       <MeleeWeapon slots="LeftHand,Any" aimpos="45,20" handle1="-32,-2" holdangle="30" reload="0.95" range="100" combatPriority="49" msg="ItemMsgPickUpSelect">
-        <Attack targetimpulse="3" severlimbsprobability="0.1" itemdamage="20" penetration="0.75">
+        <Attack targetimpulse="3" severlimbsprobability="0.1" itemdamage="10" penetration="0.75">
           <Affliction identifier="internaldamage" strength="5" />
           <Affliction identifier="lacerations" strength="10" />
           <Affliction identifier="burn" strength="12" />
@@ -319,7 +319,7 @@
       </LightComponent>
       <Projectile characterusable="false" launchimpulse="80.0" sticktocharacters="true" sticktoitems="false" sticktostructures="true" penetration="0.85" maxtargetstohit="2">
         <ParticleEmitter particle="tracerpulselaser" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="1,0.75" colormultiplier="0,0,255,255" />
-        <Attack structuredamage="20" itemdamage="40" targetforce="30" severlimbsprobability="0.15">
+        <Attack structuredamage="5" itemdamage="15" targetforce="30" severlimbsprobability="0.15">
           <Affliction identifier="bleeding" strength="60" />
           <Affliction identifier="lacerations" strength="120" />
           <Affliction identifier="stun" strength="7" />
@@ -419,7 +419,7 @@
       <Projectile characterusable="false" hitscan="true" removeonhit="true" penetration="1.0">
         <ParticleEmitter particle="tracerpulselaser" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="1.0,0.5" />
         <ParticleEmitter particle="FlareBubbles" emitacrossrayinterval="50" scalemultiplier="0.5,0.5" />
-        <Attack structuredamage="1000" targetforce="5" itemdamage="100" severlimbsprobability="10">
+        <Attack structuredamage="50" targetforce="5" itemdamage="70" severlimbsprobability="10">
           <Affliction identifier="burn" strength="500" />
           <Affliction identifier="lacerations" strength="500" />
           <Affliction identifier="stun" strength="1.0" />
@@ -456,7 +456,7 @@
       <Projectile characterusable="false" hitscan="true" removeonhit="true" maxtargetstohit="2" penetration="1.0">
         <ParticleEmitter particle="tracerpulselaser" particleamount="1" velocitymin="0" velocitymax="0" scalemultiplier="1.0,1.0" />
         <ParticleEmitter particle="FlareBubbles" emitacrossrayinterval="50" scalemultiplier="1.0,1.0" />
-        <Attack structuredamage="1000" targetforce="5" itemdamage="100" severlimbsprobability="10">
+        <Attack structuredamage="50" targetforce="5" itemdamage="30" severlimbsprobability="10">
           <Affliction identifier="burn" strength="500" />
           <Affliction identifier="lacerations" strength="500" />
           <Affliction identifier="stun" strength="1.0" />
