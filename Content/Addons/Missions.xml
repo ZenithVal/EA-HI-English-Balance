@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Missions>
+<!-- <Missions>
   <!-- TODO Reputation Revise -->
   <!-- TODO 武装商船 -->
   <PirateMission
@@ -475,4 +475,4 @@
     <Icon texture="Content/UI/MissionIcons2.png" sourcerect="256,768,256,256" color="214,50,48" />
     <message header="世纪大戏" text="挺精彩的，可惜得有人收拾残局。" />
   </MonsterMission>
-</Missions>
+</Missions> -->
