@@ -8,5 +8,5 @@
 Github link: https://github.com/Raven-233486/Barotrauma-Animated
 All override & new items are listed in the Itemlist.txt
 
-Classic Verison: %ModDir:2894672716%
+Classic Verison: %ModDir%
 Lite Version: %ModDir:2850994195%
